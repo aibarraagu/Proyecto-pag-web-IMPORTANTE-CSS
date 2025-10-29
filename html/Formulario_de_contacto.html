@@ -23,13 +23,22 @@
     </header>
     <hr>
     <main>
-        <form>
+        <h2>Contacta con nosotros</h2>
+        <form action="#" method="get">
             <label for="nombre">Introduce tu nombre</label>
-            <input type="text" id="nombre" name="nombre"> <br>
+            <input type="text" id="nombre" name="nombre"> <br> <br>
             <label for="apellido">Introduce tu apellido</label>
-            <input type="text" name="apellido" id="apellido"> <br>
+            <input type="text" name="apellido" id="apellido"> <br> <br>
             <label for="correo">Introduce tu correo</label>
             <input type="email" name="correo" id="correo"> <br>
+            <p>Género</p>
+            <label for="g_hombre">Hombre</label>
+            <input type="radio" name="Género" id="g_hombre" value="hombre"> <label for="g_mujer">Mujer</label>
+            <input type="radio" name="Género" id="g_mujer" value="mujer">
+            <label for="g_pnd">Prefiero no decirlo</label>
+            <input type="radio" name="Género" id="g_pnd" value="prefiero no decirlo"> <br> <br>
+            <label for="fecha">Fecha de nacimiento</label> <br>
+            <input type="date" name="fecha" id="fecha"> <br> <br>
             <input type="submit" value="Enviar"> <br>
             <input type="reset" value="Borrar todo">
         </form>
