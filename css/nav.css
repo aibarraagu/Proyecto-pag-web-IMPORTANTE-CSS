@@ -1,9 +1,15 @@
-.nav .ul .li{
-    display: inline-block;
+.nav{
+    position: sticky
+    top: 0;
+}
+.nav ul{
+    background-color: rgb(77, 0, 0);
+    padding: 0px;
     margin: 0px;
 }
-.li{
+.nav ul li{
+    display: inline-block;
+    margin: 0;
     background-color: black;
     padding: 20px;
-
 }

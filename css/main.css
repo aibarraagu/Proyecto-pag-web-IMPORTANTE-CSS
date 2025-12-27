@@ -5,10 +5,19 @@
 
 html{
     background-color: #38040e;
-    padding: 20px 100px 20px ;
+    padding: 20px 150px 20px ;
 }
 
 a:link { color: #e00d0d; }
 a:visited { color: #d11111; }
 a:hover { color: #ffffff8f; }
 a:active { color: #000000; }
+
+h1{
+    background-color: rgb(121, 22, 22);
+    padding:10px;
+    margin-bottom: 0px;
+}
+header{margin:0px;}
+
+hr {border-style: dashed;}
