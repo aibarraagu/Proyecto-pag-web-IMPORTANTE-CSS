@@ -1,0 +1,9 @@
+.nav .ul .li{
+    display: inline-block;
+    margin: 0px;
+}
+.li{
+    background-color: black;
+    padding: 20px;
+
+}
