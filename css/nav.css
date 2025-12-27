@@ -2,12 +2,14 @@
     position: sticky;
     top: 0;
 }
+
 .nav ul{
     background-color: rgb(77, 0, 0);
     padding: 0px;
     margin: 0px;
     font-size: 0;
 }
+
 .nav ul li{
     display: inline-block;
     margin: 0px;
