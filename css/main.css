@@ -21,3 +21,15 @@ h1{
 header{margin:0px;}
 
 hr {border-style: dashed;}
+
+.imagen_dexter{
+    display: inline;
+}
+
+.trailer_dexter{
+    display: inline;
+}
+.h2_trailer{
+    display: inline;
+    
+}
