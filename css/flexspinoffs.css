@@ -5,13 +5,18 @@
     gap: 20px;
 }
 
-.character-card{
+.character-card {
     width: 32%;
 }
-.card-title {   
-        
-}
 
-@media screen  {
-    
+.card-title {}
+
+/* Media query de móviles */
+
+@media screen and (max-width: 575px) {
+
+    .character-card {
+        width: 100%;
+    }
+
 }
