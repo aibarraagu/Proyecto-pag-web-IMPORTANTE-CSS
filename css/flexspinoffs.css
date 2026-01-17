@@ -4,3 +4,14 @@
     flex-wrap: wrap;
     gap: 20px;
 }
+
+.character-card{
+    width: 32%;
+}
+.card-title {   
+        
+}
+
+@media screen  {
+    
+}
