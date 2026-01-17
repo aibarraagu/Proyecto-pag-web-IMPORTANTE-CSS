@@ -1,0 +1,55 @@
+form {
+    justify-content: center;
+    border-style: groove;
+    padding: 100px;
+    background-color: black;
+}
+
+input[type="radio"] {
+    accent-color: red;
+}
+
+input[type="submit"] {
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: red;
+
+}
+
+input[type="reset"] {
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+
+input[type="reset"]:hover {
+    background-color: red;
+}
+
+input[type="text"] {
+    color: white;
+    background-color: black;
+
+}
+
+input[type="email"] {
+    color: white;
+    background-color: black;
+}
+
+input[type="date"] {
+    color: white;
+    background-color: black;
+}
+
+textarea {
+    color: white;
+    background-color: black;
+}
+
+
+/* ctrl+ç=comentar */

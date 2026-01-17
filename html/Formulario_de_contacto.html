@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <title>Dexterpedia</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/css/main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/css/nav.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/css/formulario.css'>
+    <link rel="icon" href="/images/Favicon dexter.jpg">
+</head>
+
+<body>
+    <header>
+        <h1>Dexter</h1>
+    </header>
+    <main>
+        <nav class="nav">
+            <ul>
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="/html/personajes.html">Personajes</a></li>
+                <li><a href="/html/spinoffs.html">Spinoffs</a></li>
+                <li><a href="/html/catchuponearlierseasons.html">Temporadas</a></li>
+            </ul>
+        </nav>
+        <h2>Contacta con nosotros</h2>
+        <form action="#" method="get">
+            <label for="nombre">Introduce tu nombre</label>
+            <input type="text" id="nombre" name="nombre"> <br> <br>
+            <label for="apellido">Introduce tu apellido</label>
+            <input type="text" name="apellido" id="apellido"> <br> <br>
+            <label for="correo">Introduce tu correo</label>
+            <input type="email" name="correo" id="correo"> <br>
+            <p>Género</p>
+            <label for="g_hombre">Hombre</label>
+            <input type="radio" name="Género" id="g_hombre" value="hombre"> <br>
+            <label for="g_mujer">Mujer</label>
+            <input type="radio" name="Género" id="g_mujer" value="mujer"> <br>
+            <label for="g_pnd">Prefiero no decirlo</label>
+            <input type="radio" name="Género" id="g_pnd" value="prefiero no decirlo"> <br> <br>
+            <label for="fecha">Fecha de nacimiento</label> <br>
+            <input type="date" name="fecha" id="fecha"> <br> <br>
+            <label for="sugerencia">¿Alguna sugerencia?</label> <br>
+            <textarea name="sugerencia" id="sugerencia"></textarea> <br><br>
+            <label for="file">¿Quieres enviar alguna imagen?</label>
+            <input type="file" name="file" id="file"> <br> <br>
+            <p>¿Que te ha parecido esta web?</p>
+            <label for="muy_bien">Muy bien</label>
+            <input type="radio" name="valoracion" id="muy_bien" value="muy_bien">
+            <label for="bien">Bien</label>
+            <input type="radio" name="valoracion" id="bien" value="bien">
+            <label for="regular">Regular</label>
+            <input type="radio" name="valoracion" id="regular" value="regular">
+            <label for="mal">Mal</label>
+            <input type="radio" name="valoracion" id="mal" value="mal">
+            <label for="muy_mal">Muy mal</label>
+            <input type="radio" name="valoracion" id="muy_mal" value="muy_mal"> <br> <br>
+            <input type="submit" value="Enviar"> <br>
+            <input type="reset" value="Borrar todo">
+        </form>
+    </main>
+    <footer>
+        <h4>Asier Ibarra &copy;</h4>
+    </footer>
+</body>
+
+</html>
