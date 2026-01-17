@@ -4,3 +4,17 @@
     flex-wrap: wrap;
     gap: 20px;
 }
+
+/* Media query de móviles */
+
+@media screen and (max-width: 575px) {
+    .character-card {
+        width: 100%;
+    }
+
+    .card-content img {
+        width: 200px;
+    }
+    .card-title
+}
+
