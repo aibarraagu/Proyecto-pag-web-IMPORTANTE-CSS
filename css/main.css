@@ -39,16 +39,16 @@ hr {
 }
 
 .imagen_dexter {
-    display: inline;
+    grid-area: imagen;
 }
 
 .trailer_dexter {
-    display: inline;
+    grid-area: iframe;
 
 }
 
 .h2_trailer {
-    display: inline;
+    grid-area: texto;
 
 }
 
@@ -58,6 +58,19 @@ footer {
     margin-top: 20px;
     padding: 10px;
 }
+
+.imagen_iframe_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+    ". imagen imagen"
+    ". texto texto"
+    ". iframe iframe" ;
+}
+
+
+
 
 /* Media query de móviles */
 
