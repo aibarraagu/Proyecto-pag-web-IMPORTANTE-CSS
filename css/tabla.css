@@ -5,6 +5,12 @@
     gap: 20px;
 }
 
+.character-card{
+    opacity: 0.7;
+}
+.character-card:hover{
+    opacity: 1;
+}
 /* Media query de móviles */
 
 @media screen and (max-width: 575px) {
