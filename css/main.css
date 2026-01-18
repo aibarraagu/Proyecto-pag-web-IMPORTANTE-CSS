@@ -8,6 +8,10 @@ html {
     padding: 20px 150px 20px;
 }
 
+.imagen_iframe_grid iframe {
+    max-width: 100%;
+}
+
 a:link {
     color: #e00d0d;
 }
@@ -77,6 +81,16 @@ footer {
     html {
         padding: 0px;
     }
+
+    .imagen_iframe_grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "imagen imagen imagen"
+            "texto texto texto"
+            "iframe iframe iframe";
+    }
 }
 
 /* Media query de tablets */
@@ -84,6 +98,16 @@ footer {
 @media screen and (min-width: 576px) and (max-width: 767px) {
     html {
         padding: 0px;
+    }
+
+    .imagen_iframe_grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "imagen imagen imagen"
+            "texto texto texto"
+            "iframe iframe iframe";
     }
 
     .imagen_dexter {
