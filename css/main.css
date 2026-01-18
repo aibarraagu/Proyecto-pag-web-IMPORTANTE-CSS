@@ -63,12 +63,11 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto auto;
-    grid-template-areas: 
-    ". imagen imagen"
-    ". texto texto"
-    ". iframe iframe" ;
+    grid-template-areas:
+        ". imagen imagen"
+        ". texto texto"
+        ". iframe iframe";
 }
-
 
 
 
