@@ -16,6 +16,7 @@
 @media screen and (max-width: 575px) {
     .character-card {
         width: 100%;
+        opacity: 1;
     }
 
     .card-content img {
