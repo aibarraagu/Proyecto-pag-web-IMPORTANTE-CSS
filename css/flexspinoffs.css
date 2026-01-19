@@ -7,9 +7,50 @@
 
 .character-card {
     width: 32%;
+    position: relative;
 }
 
-.card-title {}
+.dropdown-content-earlycuts {
+    color: white;
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 130px;
+    padding: 12px 16px;
+    border: solid darkred 5px;
+}
+
+.dropdown-content-newblood {
+    color: white;
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 130px;
+    padding: 12px 16px;
+    border: solid darkred 5px;
+}
+
+.dropdown-content-originalsin {
+    color: white;
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 130px;
+    padding: 12px 16px;
+    border: solid darkred 5px;
+}
+
+.character-card:hover .dropdown-content-earlycuts {
+    display: block;
+}
+
+.character-card:hover .dropdown-content-newblood {
+    display: block;
+}
+
+.character-card:hover .dropdown-content-originalsin {
+    display: block;
+}
 
 /* Media query de móviles */
 
@@ -17,6 +58,43 @@
 
     .character-card {
         width: 100%;
+        margin-bottom: 200px;
+    }
+
+
+    .dropdown-content-earlycuts {
+        display: block
+    }
+
+    .dropdown-content-newblood {
+        display: block
+    }
+
+    .dropdown-content-originalsin {
+        display: block
+    }
+
+}
+
+/* Media query de tablets */
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .character-card {
+        width: 100%;
+        margin-bottom: 200px;
+    }
+
+
+    .dropdown-content-earlycuts {
+        display: block
+    }
+
+    .dropdown-content-newblood {
+        display: block
+    }
+
+    .dropdown-content-originalsin {
+        display: block
     }
 
 }
