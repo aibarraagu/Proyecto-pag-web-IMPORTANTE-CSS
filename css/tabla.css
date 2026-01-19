@@ -19,7 +19,13 @@
         width: 100%;
         opacity: 1;
     }
-
+.card-content{
+    opacity: 1;
+}
+.card-content:hover{
+    opacity: 1;
+    border-top: 0px solid darkred;
+}
     .card-content img {
         width: 200px;
     }
