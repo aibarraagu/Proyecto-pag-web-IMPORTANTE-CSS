@@ -1,3 +1,15 @@
+div {
+    font-family: "Gravitas One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-family: "Gravitas One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 .flex {
     display: flex;
     flex-wrap: wrap;
@@ -5,11 +17,12 @@
 }
 
 .mi_nombre {
+
     padding: 60px;
     margin: 10px;
     background-color: darkred;
     width: 100px;
-    height: 100px;
+    height: 200px;
     opacity: 0.8;
     transition: width 2s;
 }
@@ -24,7 +37,7 @@
     margin: 10px;
     background-color: darkred;
     width: 100px;
-    height: 100px;
+    height: 200px;
     transition: width 2s;
     opacity: 0.8;
 }
