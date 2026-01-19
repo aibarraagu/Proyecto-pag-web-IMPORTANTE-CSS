@@ -73,7 +73,23 @@ footer {
         ". iframe iframe";
 }
 
+#equipo_de_produccion {
+    grid-area: produccion;
+    border-right: solid 1px white;
+}
 
+#premios_y_nominaciones {
+    grid-area: premios;
+    border-left: solid 0px white;
+}
+
+.equipo_de_produccion_y_premios_y_nominaciones_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas: "produccion premios "
+    "produccion premios";
+}
 
 /* Media query de móviles */
 
@@ -90,6 +106,9 @@ footer {
             "imagen imagen imagen"
             "texto texto texto"
             "iframe iframe iframe";
+    }
+    .equipo_de_produccion_y_premios_y_nominaciones_grid{
+        display: block;
     }
 }
 
