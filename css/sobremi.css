@@ -10,12 +10,13 @@
     background-color: darkred;
     width: 100px;
     height: 100px;
-
+    opacity: 0.8;
     transition: width 2s;
 }
 
 .mi_nombre:hover {
     width: 200px;
+    opacity: 1;
 }
 
 .estudios {
@@ -25,11 +26,13 @@
     width: 100px;
     height: 100px;
     transition: width 2s;
+    opacity: 0.8;
 }
 
 
 .estudios:hover {
     width: 200px;
+    opacity: 1;
 }
 
 img {
