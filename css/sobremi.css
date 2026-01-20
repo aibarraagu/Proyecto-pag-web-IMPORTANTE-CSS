@@ -97,21 +97,44 @@ img {
 /* Media query de móviles */
 
 @media screen and (max-width: 575px) {
-    
-.transicion {
-    border: solid;
-    padding: 50px;
-    margin: 10px;
-    height: 500px;
-    width: 900px;
 
-    
-    margin: 0px;
-    background-image: url(/images/fotoctf.jpeg);
+    .transicion {
+        border: solid;
+        padding: 50px;
+        margin: 10px;
+        height: 500px;
+        width: 900px;
+
+
+        margin: 0px;
+        background-image: url(/images/fotoctf.jpeg);
+    }
+
+    .transicion:hover .hovertext {
+        display: none;
+        position: inherit;
+        opacity: 0.8;
+    }
 }
-.transicion:hover .hovertext {
-    display: none;
-    position: inherit;
-    opacity: 0.8;
-}
+
+/* Media query de tablets */
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .transicion {
+        border: solid;
+        padding: 50px;
+        margin: 10px;
+        height: 500px;
+        width: 900px;
+
+
+        margin: 0px;
+        background-image: url(/images/fotoctf.jpeg);
+    }
+
+    .transicion:hover .hovertext {
+        display: none;
+        position: inherit;
+        opacity: 0.8;
+    }
 }
