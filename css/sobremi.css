@@ -83,3 +83,11 @@ img {
     opacity: 0.8; 
 }
 
+.fixed{
+    padding: 10px;
+    position: fixed;
+    bottom: 0; left: 0;
+    margin: 10px;
+    background-color: darkred;
+    border: red 2px groove ;
+}
