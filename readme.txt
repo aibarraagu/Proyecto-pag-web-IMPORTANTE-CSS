@@ -26,6 +26,7 @@ El nav tiene el z-index más alto.
 A7 – Float, Links y Dropdown
 Float en float.css.
 Links y dropdown en main.css.
+Dropdown de links en sobremi.css
 
 A8 – Flex
 En flexspinoffs.css, sobremi.css y tabla.css.
