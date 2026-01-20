@@ -55,12 +55,12 @@ img {
     display: none;
 }
 
-.hovertext{
+.hovertext {
     text-align: center;
     background-color: black;
     color: white;
     opacity: 0;
-    transition-property:opacity;
+    transition-property: opacity;
     transition-duration: 1s;
     padding: 5px;
 }
@@ -77,17 +77,41 @@ img {
     background-image: url(/images/fotoctf.jpeg);
 }
 
-.transicion:hover .hovertext{
+.transicion:hover .hovertext {
     display: inline;
     position: inherit;
-    opacity: 0.8; 
+    opacity: 0.8;
 }
 
-.fixed{
+.fixed {
     padding: 10px;
     position: fixed;
-    bottom: 0; left: 0;
+    bottom: 0;
+    left: 0;
     margin: 10px;
     background-color: darkred;
-    border: red 2px groove ;
+    border: red 2px groove;
+    border-radius: 10px;
+}
+
+/* Media query de móviles */
+
+@media screen and (max-width: 575px) {
+    
+.transicion {
+    border: solid;
+    padding: 50px;
+    margin: 10px;
+    height: 500px;
+    width: 900px;
+
+    
+    margin: 0px;
+    background-image: url(/images/fotoctf.jpeg);
+}
+.transicion:hover .hovertext {
+    display: none;
+    position: inherit;
+    opacity: 0.8;
+}
 }
