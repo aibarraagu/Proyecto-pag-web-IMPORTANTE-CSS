@@ -49,33 +49,36 @@ h1 {
 }
 
 img {
-    width: 100%;
-    height: 100%;
+    width: max-content;
+    height: max-content;
     object-fit: cover;
+    display: none;
+}
+
+.hovertext{
+    text-align: center;
+    background-color: black;
+    color: white;
+    opacity: 0;
+    transition-property:opacity;
+    transition-duration: 1s;
+    padding: 5px;
 }
 
 .transicion {
+    border: solid;
     padding: 50px;
     margin: 10px;
-    background-color: darkred;
-    width: 100%;
+    height: 500px;
+    width: 900px;
     text-align: center;
     position: relative;
     margin: 100px;
+    background-image: url(/images/fotoctf.jpeg);
 }
 
-
-.fotoctf {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 1001;
-    width: max-content;
-    height: max-content;
-}
-
-.transicion:hover .fotoctf {
-    display: block;
+.transicion:hover .hovertext{
+    display: inline;
+    position: inherit;
+    opacity: 1; 
 }
