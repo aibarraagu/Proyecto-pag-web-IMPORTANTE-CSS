@@ -80,5 +80,5 @@ img {
 .transicion:hover .hovertext{
     display: inline;
     position: inherit;
-    opacity: 1; 
+    opacity: 0.8; 
 }
